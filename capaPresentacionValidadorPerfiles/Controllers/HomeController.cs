@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaEntidad;
+using CapaNegocios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,18 +15,22 @@ namespace capaPresentacionValidadorPerfiles.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Usuarios()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
 
-            return View();
+        [HttpGet]
+        public JsonResult ListarUsuario()
+        {
+            
+            List<usuario> oLista = new List<usuario>();
+            oLista = new CN_Usuarios().Listar();
+            return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
         }
+
+
+
     }
 }

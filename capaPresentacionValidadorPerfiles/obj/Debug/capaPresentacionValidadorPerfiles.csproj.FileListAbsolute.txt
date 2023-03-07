@@ -88,3 +88,5 @@ C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\obj\De
 C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\obj\Debug\capaPresentacionValidadorPerfiles.csproj.CopyComplete
 C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\obj\Debug\capaPresentacionValidadorPerfiles.dll
 C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\obj\Debug\capaPresentacionValidadorPerfiles.pdb
+C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\bin\CapaDatos.dll
+C:\Users\dnb12\Source\Repos\loverSitios\capaPresentacionValidadorPerfiles\bin\CapaDatos.pdb
