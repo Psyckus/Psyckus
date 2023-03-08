@@ -12368,3 +12368,8 @@ body {
     font-size: 0.75rem;
     border-radius: 0.25rem !important;
 }
+
+body.custom-bg {
+    background-color: red; /* Cambiar por el color que desee */
+}
+
